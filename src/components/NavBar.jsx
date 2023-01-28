@@ -20,7 +20,7 @@ function NavBar () {
                 
                     <h1 id={toggle? '' : 'heading'}>REACTcinema</h1>
                 
-                <NavLink to="" style={({isActive}) => {return{color: isActive ? "#fff" : "#EE9B00"}}}>
+                <NavLink to="/" style={({isActive}) => {return{color: isActive ? "#fff" : "#EE9B00"}}}>
                     <span id={toggle? 'Movies' : 'MoviesLight'}>Movies</span>
                 </NavLink>
                 <NavLink to="/TvShows"style={({isActive}) => {return{color: isActive ? "#fff" : "#EE9B00"}}}>
@@ -44,7 +44,7 @@ function NavBar () {
         </nav>
 
         <Routes>
-            <Route path="" element = {<Movies/>}/>
+            <Route path="/" element = {<Movies/>}/>
             <Route path="/TvShows" element = {<TvShows/>}/>
             <Route path="/Trending" element = {<Trending/>}/>
             <Route path="/Pricing" element = {<Pricing/>}/>

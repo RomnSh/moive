@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/moive/static/css/main.5f7d2f8f.css",
+    "main.js": "/moive/static/js/main.8122bade.js",
+    "static/media/No_Image.jpg": "/moive/static/media/No_Image.e1ce751ef1b590f719f9.jpg",
+    "index.html": "/moive/index.html",
+    "main.5f7d2f8f.css.map": "/moive/static/css/main.5f7d2f8f.css.map",
+    "main.8122bade.js.map": "/moive/static/js/main.8122bade.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f7d2f8f.css",
+    "static/js/main.8122bade.js"
+  ]
+}

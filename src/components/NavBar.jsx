@@ -20,16 +20,16 @@ function NavBar () {
                 
                     <h1 id={toggle? '' : 'heading'}>REACTcinema</h1>
                 
-                <NavLink to="/" style={({isActive}) => {return{color: isActive ? "#fff" : "#EE9B00"}}}>
+                <NavLink to="/moive" style={({isActive}) => {return{color: isActive ? "#fff" : "#EE9B00"}}}>
                     <span id={toggle? 'Movies' : 'MoviesLight'}>Movies</span>
                 </NavLink>
-                <NavLink to="/TvShows"style={({isActive}) => {return{color: isActive ? "#fff" : "#EE9B00"}}}>
+                <NavLink to="/moive/TvShows"style={({isActive}) => {return{color: isActive ? "#fff" : "#EE9B00"}}}>
                     <span id={toggle? 'Movies' : 'MoviesLight'}>TvShows</span>
                 </NavLink>
-                <NavLink to="/Trending" style={({isActive}) => {return{color: isActive ? "#fff" : "#EE9B00"}}}>
+                <NavLink to="/moive/Trending" style={({isActive}) => {return{color: isActive ? "#fff" : "#EE9B00"}}}>
                     <span id={toggle? 'Movies' : 'MoviesLight'}>Trending</span>
                 </NavLink>
-                <NavLink to="/Pricing" style={({isActive}) => {return{color: isActive ? "#fff" : "#EE9B00"}}}>
+                <NavLink to="/moive/Pricing" style={({isActive}) => {return{color: isActive ? "#fff" : "#EE9B00"}}}>
                     <span id={toggle? 'Movies' : 'MoviesLight'}>Pricing</span>  
                 </NavLink>
                 
@@ -44,10 +44,10 @@ function NavBar () {
         </nav>
 
         <Routes>
-            <Route path="/" element = {<Movies/>}/>
-            <Route path="/TvShows" element = {<TvShows/>}/>
-            <Route path="/Trending" element = {<Trending/>}/>
-            <Route path="/Pricing" element = {<Pricing/>}/>
+            <Route path="/moive" element = {<Movies/>}/>
+            <Route path="/moive/TvShows" element = {<TvShows/>}/>
+            <Route path="/moive/Trending" element = {<Trending/>}/>
+            <Route path="/moive/Pricing" element = {<Pricing/>}/>
         </Routes>
     </Fragment>
     </Container.Provider>
